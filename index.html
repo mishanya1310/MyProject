@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAMP - Управление активами</title>
+    <style>
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container { 
+            max-width: 1000px; 
+            margin: 0 auto; 
+        }
+        
+        header { 
+            background: rgba(255, 255, 255, 0.95);
+            padding: 2rem; 
+            text-align: center; 
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        h1 { 
+            color: #2c3e50; 
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+        }
+        
+        .card { 
+            background: rgba(255, 255, 255, 0.95);
+            padding: 2rem; 
+            border-radius: 15px; 
+            margin-bottom: 1.5rem;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .price-item {
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 10px;
+            background: #f8f9fa;
+            border-left: 5px solid #3498db;
+        }
+        
+        .positive { border-left-color: #27ae60; }
+        .negative { border-left-color: #e74c3c; }
+        
+        footer { 
+            text-align: center; 
+            color: white; 
+            margin-top: 3rem;
+        }
+        
+        .api-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+            font-family: monospace;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 DAMP</h1>
+            <p>Decentralized Asset Management Platform</p>
+            <p>Платформа для управления цифровыми активами</p>
+        </header>
+        
+        <div class="card">
+            <h2>📊 О проекте</h2>
+            <p><strong>DAMP</strong> - это современная платформа для управления криптовалютными активами.</p>
+            <p>Система предоставляет инструменты для анализа, рекомендаций и управления портфелем цифровых активов.</p>
+        </div>
+        
+        <div class="card">
+            <h2>💰 Пример данных криптовалют</h2>
+            
+            <div class="price-item positive">
+                <strong>Bitcoin (BTC)</strong><br>
+                <span style="font-size: 1.2em; font-weight: bold;">$65,432.10</span><br>
+                <span style="color: #27ae60;">📈 +2.34% за 24ч</span>
+            </div>
+            
+            <div class="price-item positive">
+                <strong>Ethereum (ETH)</strong><br>
+                <span style="font-size: 1.2em; font-weight: bold;">$3,456.78</span><br>
+                <span style="color: #27ae60;">📈 +1.56% за 24ч</span>
+            </div>
+            
+            <div class="price-item negative">
+                <strong>Cardano (ADA)</strong><br>
+                <span style="font-size: 1.2em; font-weight: bold;">$0.5678</span><br>
+                <span style="color: #e74c3c;">📉 -0.89% за 24ч</span>
+            </div>
+            
+            <div style="margin-top: 20px; padding: 15px; background: #e3f2fd; border-radius: 8px;">
+                <p><strong>💡 Для реальных данных:</strong></p>
+                <p>Запустите локальное API и откройте этот файл на своем компьютере</p>
+                <div class="api-info">
+                    cd api<br>
+                    python app.py<br>
+                    затем откройте index.html в браузере
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>🎯 Функциональность</h2>
+            <div class="price-item">
+                <strong>✅ Управление портфелями</strong> - Создание и мониторинг инвестиционных портфелей
+            </div>
+            <div class="price-item">
+                <strong>✅ Рекомендательная система</strong> - Персонализированные предложения по активам
+            </div>
+            <div class="price-item">
+                <strong>✅ Анализ рисков</strong> - Оценка риск-профиля и подбор активов
+            </div>
+            <div class="price-item">
+                <strong>✅ REST API</strong> - Полнофункциональное API для работы с данными
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>🔧 Технологии</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li style="padding: 8px 0;">✅ Python + Flask для API</li>
+                <li style="padding: 8px 0;">✅ HTML/CSS/JavaScript для интерфейса</li>
+                <li style="padding: 8px 0;">✅ CoinGecko API для реальных данных</li>
+                <li style="padding: 8px 0;">✅ GitHub Pages для хостинга</li>
+            </ul>
+        </div>
+        
+        <footer>
+            <p>&copy; 2024 DAMP Platform | Курсовой проект</p>
+            <p>GitHub Pages демонстрация</p>
+        </footer>
+    </div>
+</body>
+</html>
