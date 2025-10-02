@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F3E3254-1FCF-49B4-A798-C4F87F3F7BA4}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\student\\desktop\\milanchick^-^\\myproject\\sssuper_mamedova_milana_broject_2006_rus\\businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F3E3254-1FCF-49B4-A798-C4F87F3F7BA4}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF037D9C-C343-490F-B5C4-CC498B717EF7}|Domain\\Domain.csproj|c:\\users\\student\\desktop\\milanchick^-^\\myproject\\sssuper_mamedova_milana_broject_2006_rus\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF037D9C-C343-490F-B5C4-CC498B717EF7}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66098F3B-50A3-45E0-B867-5BB484C2BD26}|DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\milanchick^-^\\myproject\\sssuper_mamedova_milana_broject_2006_rus\\dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66098F3B-50A3-45E0-B867-5BB484C2BD26}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\BusinessLogic\\Class1.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Class1.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\BusinessLogic\\Class1.cs",
+              "RelativeToolTip": "BusinessLogic\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T10:18:48.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\Domain\\Class1.cs",
+              "RelativeToolTip": "Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T10:18:22.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\Class1.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Class1.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\Class1.cs",
+              "RelativeToolTip": "DataAccess\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T10:17:13.864Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
