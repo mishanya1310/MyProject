@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66098F3B-50A3-45E0-B867-5BB484C2BD26}|DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\milanchick^-^\\myproject\\sssuper_mamedova_milana_broject_2006_rus\\dataaccess\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66098F3B-50A3-45E0-B867-5BB484C2BD26}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66098F3B-50A3-45E0-B867-5BB484C2BD26}|DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\milanchick^-^\\myproject\\sssuper_mamedova_milana_broject_2006_rus\\dataaccess\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66098F3B-50A3-45E0-B867-5BB484C2BD26}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66098F3B-50A3-45E0-B867-5BB484C2BD26}|DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\milanchick^-^\\myproject\\sssuper_mamedova_milana_broject_2006_rus\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{66098F3B-50A3-45E0-B867-5BB484C2BD26}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0F3E3254-1FCF-49B4-A798-C4F87F3F7BA4}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\student\\desktop\\milanchick^-^\\myproject\\sssuper_mamedova_milana_broject_2006_rus\\businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F3E3254-1FCF-49B4-A798-C4F87F3F7BA4}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{66098F3B-50A3-45E0-B867-5BB484C2BD26}|DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\milanchick^-^\\myproject\\sssuper_mamedova_milana_broject_2006_rus\\dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66098F3B-50A3-45E0-B867-5BB484C2BD26}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66098F3B-50A3-45E0-B867-5BB484C2BD26}|DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\milanchick^-^\\myproject\\sssuper_mamedova_milana_broject_2006_rus\\dataaccess\\models\\milanadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66098F3B-50A3-45E0-B867-5BB484C2BD26}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\milanadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +43,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T10:37:04.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\Interfaces\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Interfaces\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\Interfaces\\IRepositoryBase.cs",
+              "RelativeToolTip": "DataAccess\\Interfaces\\IRepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T10:30:59.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\DataAccess.csproj",
+              "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\DataAccess.csproj",
+              "RelativeToolTip": "DataAccess\\DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-02T10:29:30.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MilanaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\Models\\MilanaDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\MilanaDbContext.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\Models\\MilanaDbContext.cs",
+              "RelativeToolTip": "DataAccess\\Models\\MilanaDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T10:27:33.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\BusinessLogic\\Class1.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\Class1.cs",
@@ -34,12 +99,11 @@
               "RelativeToolTip": "BusinessLogic\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T10:18:48.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T10:18:48.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\Domain\\Class1.cs",
               "RelativeDocumentMoniker": "Domain\\Class1.cs",
@@ -47,12 +111,11 @@
               "RelativeToolTip": "Domain\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T10:18:22.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T10:18:22.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\Class1.cs",
               "RelativeDocumentMoniker": "DataAccess\\Class1.cs",
@@ -60,8 +123,7 @@
               "RelativeToolTip": "DataAccess\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T10:17:13.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T10:17:13.864Z"
             }
           ]
         }
