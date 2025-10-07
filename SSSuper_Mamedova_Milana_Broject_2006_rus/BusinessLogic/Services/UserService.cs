@@ -22,7 +22,7 @@ namespace BusinessLogic.Services
         public Task<Пользователи> GetById(int id)
         {
             var user = _repositoryWrapper.User
-                .FindByCondition(x => x.Id == id).First();
+                .FindByCondition(x => x.IdПользователя == id).First();
             return Task.FromResult(user);
         }
 
@@ -43,7 +43,7 @@ namespace BusinessLogic.Services
         public Task Delete(int id)
         {
             var user = _repositoryWrapper.User
-                .FindByCondition(x => x.Id == id).First();
+                .FindByCondition(x => x.IdПользователя == id).First();
 
             _repositoryWrapper.User.Delete(user);
             _repositoryWrapper.Save();

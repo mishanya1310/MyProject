@@ -10,6 +10,7 @@ namespace DataAccess.Wrapper
     public interface IRepositoryWrapper
     {
         IUserRepository User { get; }
+        IActiveRepository Active { get; }
         void Save();
     }
 }

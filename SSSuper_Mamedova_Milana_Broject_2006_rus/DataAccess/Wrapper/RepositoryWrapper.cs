@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Wrapper
 {
-    internal class RepositoryWrapper : IRepositoryWrapper
+    public class RepositoryWrapper : IRepositoryWrapper
     {
         private MilanaDbContext _repoContext;
 
@@ -23,6 +23,20 @@ namespace DataAccess.Wrapper
                     _user = new UserRepository(_repoContext);
                 }
                 return _user; 
+            }
+        }
+
+        private IActiveRepository _active;
+
+        public IActiveRepository Active
+        {
+            get
+            {
+                if (_active == null)
+                {
+                    _active = new ActiveRepository(_repoContext);
+                }
+                return _active;
             }
         }
 
