@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UXFdKIl4t3o=",
+  "dgSpecHash": "1SdHx20DT4s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Student\\Desktop\\MyProject-main\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

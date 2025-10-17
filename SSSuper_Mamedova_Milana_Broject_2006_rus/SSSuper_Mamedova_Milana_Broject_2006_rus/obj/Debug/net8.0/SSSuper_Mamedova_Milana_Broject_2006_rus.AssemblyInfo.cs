@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SSSuper_Mamedova_Milana_Broject_2006_rus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0242d54fd09d02b70adedd613fa631b9551ffe4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SSSuper_Mamedova_Milana_Broject_2006_rus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SSSuper_Mamedova_Milana_Broject_2006_rus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

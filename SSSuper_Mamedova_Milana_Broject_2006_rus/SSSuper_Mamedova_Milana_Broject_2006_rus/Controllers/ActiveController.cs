@@ -8,7 +8,7 @@ namespace BackendApi.Controllers
     [ApiController]
     public class ActiveController : ControllerBase
     {
-        private IUserService _activeService;
+        private IActiveService _activeService;
         public ActiveController(IActiveService activeService)
         {
             _activeService = activeService;

@@ -2684,11 +2684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\BusinessLogic\\BusinessLogic.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\Desktop\\MyProject-main\\SSSuper_Mamedova_Milana_Broject_2006_rus\\BusinessLogic\\BusinessLogic.csproj",
       "projectName": "BusinessLogic",
-      "projectPath": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\BusinessLogic\\BusinessLogic.csproj",
+      "projectPath": "C:\\Users\\Student\\Desktop\\MyProject-main\\SSSuper_Mamedova_Milana_Broject_2006_rus\\BusinessLogic\\BusinessLogic.csproj",
       "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\BusinessLogic\\obj\\",
+      "outputPath": "C:\\Users\\Student\\Desktop\\MyProject-main\\SSSuper_Mamedova_Milana_Broject_2006_rus\\BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2709,8 +2709,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Student\\Desktop\\milanchick^-^\\MyProject\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Student\\Desktop\\MyProject-main\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Student\\Desktop\\MyProject-main\\SSSuper_Mamedova_Milana_Broject_2006_rus\\DataAccess\\DataAccess.csproj"
             }
           }
         }
