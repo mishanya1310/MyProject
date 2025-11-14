@@ -1,0 +1,6 @@
+@echo off
+echo Установка зависимостей...
+pip install -r requirements.txt
+echo Запуск API...
+python app.py
+pause

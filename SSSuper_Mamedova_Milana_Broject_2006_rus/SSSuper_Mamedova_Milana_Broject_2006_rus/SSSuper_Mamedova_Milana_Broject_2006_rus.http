@@ -1,0 +1,6 @@
+@SSSuper_Mamedova_Milana_Broject_2006_rus_HostAddress = http://localhost:5127
+
+GET {{SSSuper_Mamedova_Milana_Broject_2006_rus_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

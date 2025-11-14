@@ -1,0 +1,1777 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "SSSuper_Mamedova_Milana_Broject_2006_rus",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Active": {
+      "get": {
+        "tags": [
+          "Active"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Active"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Активы"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Активы"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Активы"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Active"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Активы"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Активы"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Активы"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Active"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Active/{id}": {
+      "get": {
+        "tags": [
+          "Active"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Composition": {
+      "get": {
+        "tags": [
+          "Composition"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Composition"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/СоставПортфеля"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/СоставПортфеля"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/СоставПортфеля"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Composition"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/СоставПортфеля"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/СоставПортфеля"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/СоставПортфеля"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Composition"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Composition/{id}": {
+      "get": {
+        "tags": [
+          "Composition"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Pools": {
+      "get": {
+        "tags": [
+          "Pools"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Pools"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ВалютныеПулы"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ВалютныеПулы"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ВалютныеПулы"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Pools"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ВалютныеПулы"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ВалютныеПулы"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ВалютныеПулы"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Pools"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Pools/{id}": {
+      "get": {
+        "tags": [
+          "Pools"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Portfolios": {
+      "get": {
+        "tags": [
+          "Portfolios"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Portfolios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Портфели"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Портфели"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Портфели"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Portfolios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Портфели"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Портфели"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Портфели"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Portfolios"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Portfolios/{id}": {
+      "get": {
+        "tags": [
+          "Portfolios"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PriceHistory": {
+      "get": {
+        "tags": [
+          "PriceHistory"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "PriceHistory"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИсторияЦенАктивов"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИсторияЦенАктивов"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИсторияЦенАктивов"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "PriceHistory"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИсторияЦенАктивов"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИсторияЦенАктивов"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ИсторияЦенАктивов"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "PriceHistory"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PriceHistory/{id}": {
+      "get": {
+        "tags": [
+          "PriceHistory"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Protocols": {
+      "get": {
+        "tags": [
+          "Protocols"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Protocols"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПротоколыСтейкинг"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПротоколыСтейкинг"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПротоколыСтейкинг"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Protocols"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПротоколыСтейкинг"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПротоколыСтейкинг"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПротоколыСтейкинг"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Protocols"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Protocols/{id}": {
+      "get": {
+        "tags": [
+          "Protocols"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Recommendations": {
+      "get": {
+        "tags": [
+          "Recommendations"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Recommendations"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Рекомендации"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Рекомендации"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Рекомендации"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Recommendations"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Рекомендации"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Рекомендации"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Рекомендации"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Recommendations"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Recommendations/{id}": {
+      "get": {
+        "tags": [
+          "Recommendations"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RiskProfile": {
+      "get": {
+        "tags": [
+          "RiskProfile"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "RiskProfile"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПрофилиРиска"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПрофилиРиска"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПрофилиРиска"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "RiskProfile"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПрофилиРиска"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПрофилиРиска"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ПрофилиРиска"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "RiskProfile"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RiskProfile/{id}": {
+      "get": {
+        "tags": [
+          "RiskProfile"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Transactions": {
+      "get": {
+        "tags": [
+          "Transactions"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Transactions"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Транзакции"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Транзакции"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Транзакции"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Transactions"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Транзакции"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Транзакции"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Транзакции"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Transactions"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Transactions/{id}": {
+      "get": {
+        "tags": [
+          "Transactions"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Types": {
+      "get": {
+        "tags": [
+          "Types"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Types"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ТипыАктивов"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ТипыАктивов"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ТипыАктивов"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Types"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ТипыАктивов"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ТипыАктивов"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ТипыАктивов"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Types"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Types/{id}": {
+      "get": {
+        "tags": [
+          "Types"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пользователи"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Активы": {
+        "type": "object",
+        "properties": {
+          "idАктива": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "наименованиеАктива": {
+            "type": "string",
+            "nullable": true
+          },
+          "символАктива": {
+            "type": "string",
+            "nullable": true
+          },
+          "idТипаАктива": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "текущаяЦена": {
+            "type": "number",
+            "format": "double"
+          },
+          "индексВолатильности": {
+            "type": "number",
+            "format": "double"
+          },
+          "экспертнаяОценкаПерспективы": {
+            "type": "number",
+            "format": "double"
+          },
+          "idТипаАктиваNavigation": {
+            "$ref": "#/components/schemas/ТипыАктивов"
+          },
+          "валютныеПулыIdБазовогоАктиваNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ВалютныеПулы"
+            },
+            "nullable": true
+          },
+          "валютныеПулыIdКотируемогоАктиваNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ВалютныеПулы"
+            },
+            "nullable": true
+          },
+          "историяЦенАктивовs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ИсторияЦенАктивов"
+            },
+            "nullable": true
+          },
+          "протоколыСтейкингIdАктиваВознагражденияNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ПротоколыСтейкинг"
+            },
+            "nullable": true
+          },
+          "протоколыСтейкингIdАктиваДляВкладаNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ПротоколыСтейкинг"
+            },
+            "nullable": true
+          },
+          "рекомендацииs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Рекомендации"
+            },
+            "nullable": true
+          },
+          "составПортфеляs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/СоставПортфеля"
+            },
+            "nullable": true
+          },
+          "транзакцииs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Транзакции"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ВалютныеПулы": {
+        "type": "object",
+        "properties": {
+          "idПары": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "наименованиеПары": {
+            "type": "string",
+            "nullable": true
+          },
+          "idБазовогоАктива": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idКотируемогоАктива": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idДецентрализованнойБиржи": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "общаяЛиквидность": {
+            "type": "number",
+            "format": "double"
+          },
+          "объемТоргов24ч": {
+            "type": "number",
+            "format": "double"
+          },
+          "комиссияПула": {
+            "type": "number",
+            "format": "double"
+          },
+          "активен": {
+            "type": "boolean"
+          },
+          "idБазовогоАктиваNavigation": {
+            "$ref": "#/components/schemas/Активы"
+          },
+          "idКотируемогоАктиваNavigation": {
+            "$ref": "#/components/schemas/Активы"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ИсторияЦенАктивов": {
+        "type": "object",
+        "properties": {
+          "idЗаписи": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idАктива": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "цена": {
+            "type": "number",
+            "format": "double"
+          },
+          "датаВремяЗаписи": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "рыночнаяКапитализация": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "объемТоргов24ч": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "idАктиваNavigation": {
+            "$ref": "#/components/schemas/Активы"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Пользователи": {
+        "type": "object",
+        "properties": {
+          "idПользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "логин": {
+            "type": "string",
+            "nullable": true
+          },
+          "пароль": {
+            "type": "string",
+            "nullable": true
+          },
+          "idПрофиляРиска": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "предпочитаемыеКатегории": {
+            "type": "string",
+            "nullable": true
+          },
+          "активен": {
+            "type": "boolean"
+          },
+          "idПрофиляРискаNavigation": {
+            "$ref": "#/components/schemas/ПрофилиРиска"
+          },
+          "портфелиs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Портфели"
+            },
+            "nullable": true
+          },
+          "рекомендацииs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Рекомендации"
+            },
+            "nullable": true
+          },
+          "транзакцииs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Транзакции"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Портфели": {
+        "type": "object",
+        "properties": {
+          "idПортфеля": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "наименованиеПортфеля": {
+            "type": "string",
+            "nullable": true
+          },
+          "idПользователяNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          },
+          "составПортфеляs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/СоставПортфеля"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ПротоколыСтейкинг": {
+        "type": "object",
+        "properties": {
+          "idПротокола": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "наименованиеПротокола": {
+            "type": "string",
+            "nullable": true
+          },
+          "типПротокола": {
+            "type": "string",
+            "nullable": true
+          },
+          "idАктиваДляВклада": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idАктиваВознаграждения": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "годоваяПроцентнаяДоходность": {
+            "type": "number",
+            "format": "double"
+          },
+          "уровеньРискаПротокола": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "описаниеПротокола": {
+            "type": "string",
+            "nullable": true
+          },
+          "активен": {
+            "type": "boolean"
+          },
+          "idАктиваВознагражденияNavigation": {
+            "$ref": "#/components/schemas/Активы"
+          },
+          "idАктиваДляВкладаNavigation": {
+            "$ref": "#/components/schemas/Активы"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ПрофилиРиска": {
+        "type": "object",
+        "properties": {
+          "idПрофиляРиска": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "наименованиеПрофиля": {
+            "type": "string",
+            "nullable": true
+          },
+          "минПриемлемаВолатильность": {
+            "type": "number",
+            "format": "double"
+          },
+          "максПриемлемаВолатильность": {
+            "type": "number",
+            "format": "double"
+          },
+          "пользователиs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Пользователи"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Рекомендации": {
+        "type": "object",
+        "properties": {
+          "idРекомендации": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idАктива": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "оценкаРекомендации": {
+            "type": "number",
+            "format": "double"
+          },
+          "обоснование": {
+            "type": "string",
+            "nullable": true
+          },
+          "датаРекомендации": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idАктиваNavigation": {
+            "$ref": "#/components/schemas/Активы"
+          },
+          "idПользователяNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          }
+        },
+        "additionalProperties": false
+      },
+      "СоставПортфеля": {
+        "type": "object",
+        "properties": {
+          "idЗаписиСоставаПортфеля": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПортфеля": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idАктива": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "количество": {
+            "type": "number",
+            "format": "double"
+          },
+          "idАктиваNavigation": {
+            "$ref": "#/components/schemas/Активы"
+          },
+          "idПортфеляNavigation": {
+            "$ref": "#/components/schemas/Портфели"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ТипыАктивов": {
+        "type": "object",
+        "properties": {
+          "idТипаАктива": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "наименованиеТипа": {
+            "type": "string",
+            "nullable": true
+          },
+          "категорияТипа": {
+            "type": "string",
+            "nullable": true
+          },
+          "активыs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Активы"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Транзакции": {
+        "type": "object",
+        "properties": {
+          "idТранзакции": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idАктива": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "типТранзакции": {
+            "type": "string",
+            "nullable": true
+          },
+          "сумма": {
+            "type": "number",
+            "format": "double"
+          },
+          "датаТранзакции": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idАктиваNavigation": {
+            "$ref": "#/components/schemas/Активы"
+          },
+          "idПользователяNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
